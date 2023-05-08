@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["lab5"]
 
 
 jobs:
@@ -24,4 +24,3 @@ jobs:
           local_path: './*'
           remote_path: './'
           sftp_only: true
-
